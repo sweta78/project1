@@ -1,0 +1,102 @@
+<html>
+<head>
+<title>registration_form</title>
+</head>
+<center>
+<h1>REGISTRATION FORM </h1>
+</center>
+<hr>
+<hr>
+<body >
+
+<table border="0" width="100%" height="50%">
+
+
+
+<form enctype="multipart/form-data" method="post" action="nuser1.php">
+<tr>
+<td>
+    
+	<fieldset>
+	<legend>
+	<h2>Personal Detail</h2>
+	</legend>
+	<table width="75%" cellpadding="5" cellspacing= "5">
+	<br/>
+     	 <tr>
+	  <td>Name : </td>
+	 <td><input type="text" name="name" size="35" maxlength="25" required />* [ONLY ALPHABETS ALLOWED]</td>
+	 </tr>
+	 
+	 </table>
+	 <p>
+	 </p>
+	<br/>
+	
+   
+	 
+	 <h3><b>Contact Address</b></h3>
+	 <table width="80%" >
+	 
+	 <tr>
+	 <td>Address :  </td>
+	 <td><input type="text" name="c_address1" id="c_address1" size="60" required  ></td>
+	 </tr>
+	 
+	 <tr>
+	 <td>  </td>
+	 <td><input type="text" name="c_address2" id="c_address2" size="60" ></td>
+	 </tr>
+	 <tr>
+	 <td>City : </td>
+	 <td><input type="text" name="c_city" id="c_city" size="15" maxlength="15" required  /></td>
+	 
+	 <td>State : </td>
+	 <td><input type="text" name="c_state" id="c_state" size="15" maxlength="15" required  /></td>
+	 </tr>
+	 <tr>
+	 <td>Pincode : </td>
+	 <td><input type="text" name="c_pincode" id="c_pincode" size="10" maxlength="10" required /></td>
+	 
+	 <td>Mobile No : </td>
+	 <td><input type="text" name="c_mobileno" id="c_mobileno" size="10" maxlength="10" required /></td>
+	 </tr>
+     <tr>
+	 <td>Email : </td>
+	 <td><input type="text" name="email" id="email" size="40" maxlength="40"/></td>
+	 </tr>
+	
+	 </table>
+	 
+
+
+ </fieldset>
+
+<br/>
+<p>
+</p>
+<fieldset>
+   <legend>
+   <h2>Profile Detail</h2>
+   </legend>
+Username : <input type="text" name="username" placeholder="username" required / > [ALPHABETS AND NUMERIC VALUES ARE ALLOWED]
+<br/><br/>
+Password : <input type="password" name="password" placeholder="********" required />
+<br/><br/>
+Confirm Password : <input type="password" name="cpassword" placeholder="********" required />
+<br/>
+	 
+
+
+</fieldset>
+<b>
+<i>
+KINDLY VERIFY ALL THE DETAILS BEFORE SUBMITTING.ONCE SUBMITTED DETAILS CANNOT BE EDITED WITHOUT ADMIN'S PERMISSION.</i></b>
+<br/>
+	 <center><input type="submit" name="submit" value="REGISTER"></center>
+	
+</form>	 
+
+</body>
+</html>
+
