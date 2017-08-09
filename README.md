@@ -5,4 +5,4 @@ It has registration and login modules.
 Also Registered users can ask or view questions and answers.
 Every question has a question id and every answer has an answer id.
 Admin has the power to delete any question or answer if admin finds it irrelevant.
-Homepage of this project is titled as index-copy.html.
+Homepage of this project is titled as home.html.
